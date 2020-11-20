@@ -1,0 +1,25 @@
+﻿<Window x:Class="Sous_titres_Killian_Mathursan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sous_titres_Killian_Mathursan"
+        mc:Ignorable="d"
+        Title="Rick_And_Morty_S03xE03_Pickle-Rick" Height="500" Width="800"> 
+    <Grid Margin="10" RenderTransformOrigin="0.488,0.477">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <MediaElement Source="D:/Users/Killian/Bureau/Sous-titres_Killian_Mathursan/2020-11-13 11-10-46_Trim.mp4" LoadedBehavior="Manual" Name="LecteurVideo"/>
+        <StackPanel Grid.Row="1">
+            <Label Name="lblStatus" Content="En attente..." HorizontalContentAlignment="Center" Margin="5" />
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Name="btnPlay" Click="BtnPlay_Click">Play</Button>
+                <Button Name="btnPause" Margin="5,0" Click="BtnPause_Click">Pause</Button>
+                <Button Name="btnStop" Click="BtnStop_Click">Stop</Button>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>
