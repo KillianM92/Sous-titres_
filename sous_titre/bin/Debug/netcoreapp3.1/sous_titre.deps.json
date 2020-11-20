@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "sous_titre/1.0.0": {
+        "dependencies": {
+          "Sous-titres_Killian_Mathursan": "1.0.0"
+        },
+        "runtime": {
+          "sous_titre.dll": {}
+        }
+      },
+      "Sous-titres_Killian_Mathursan/1.0.0": {
+        "runtime": {
+          "Sous-titres_Killian_Mathursan.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sous_titre/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sous-titres_Killian_Mathursan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
